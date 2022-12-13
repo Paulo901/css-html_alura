@@ -1,12 +1,22 @@
 body{
     background-color: blanchedalmond;
 }
+#nomeloja{
+    margin-left: 5%;
+}
 #Wallpaper{
     width:  50%;
     margin-left: 25%
 }
+.pri{
+    background-color: #cccccc;
+    padding: 1%;
+    margin: 1%;
+    margin-left: 4%;
+    margin-right: 10%;
+}
 p{
-   background-color: aquamarine; 
+    margin: 5%;
 }
 #tst{
     text-align: right;
@@ -15,4 +25,27 @@ p{
 
 em strong{
     color: red;
+}
+.bene{
+    background-color: saddlebrown;
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 4%;
+}
+.subtitle{
+    text-align: center;
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    margin-left: 20%;
+}
+.lisbene{
+    font-style: italic;
+    margin: 20px;
+}
+.secimg{
+    width: 30%;
 }
