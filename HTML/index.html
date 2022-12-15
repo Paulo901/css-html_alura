@@ -6,35 +6,49 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Barbearia Z</title>
 
-        <link rel="stylesheet" href="style.css">
-        <style>
-            p{text-align: center;}
-        </style>
+        <link rel="stylesheet" href="../CSS/reset.css">
+        <link rel="stylesheet" href="../CSS/produtos.css"> 
+        <link rel="stylesheet" href="../CSS/style.css" >
+    
     </head>
     <body>
-    <header>
-        <h1 id="nomeloja">Barbearia Z</h1>
-    </header>
-        <img id="Wallpaper" src="../IMG/Wallpaper.jpg">
+        <header>
+            <div class="caixa">
+                <h1><img src="../IMG/logo.png"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contatos.html">Contatos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
         <div class="pri">
-            <h2 class="subtitle">Sobre a Barbearia Z</h2>
+            <p><h2 class="subtitle">Sobre a Barbearia Z</h2></p>
 
-            <p>Localizada no coração da cidade a <strong>Barbearia Z</strong> traz para o mercado o que há de melhor para o seu cabelo e barba.
+            <p class="parag">Localizada no coração da cidade a <strong>Barbearia Z</strong> traz para o mercado o que há de melhor para o seu cabelo e barba.
             Fundada em 2019, a Barbearia Z já é destaque na cidade e conquista novos clientes a cada dia.</p>
 
-            <p id="tst"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
+            <p id="tst" class="parag"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
 
-            <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda.
+            <p class="parag">Oferecemos profissionais experientes e antenados às mudanças no mundo da moda.
             O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
         </div>
         <div class="bene">
             <h2 class="subtitle">Benefícios</h2>
-            <ul>
+            <ul class="benList">
                 <li class="lisbene">Local</li>
                 <li class="lisbene">Profissionais</li>
                 <li class="lisbene">Resultado Final</li>
             </ul>
             <img src="../IMG/imagem.jpeg" class="secimg">
         </div>
+    </main>
+    <footer>
+        <img src="../IMG/logo-branco.png">
+        <p class="copyright">&copy; Copyright Barbearia Z - 2019</p>
+    </footer>
     </body>
 </html>

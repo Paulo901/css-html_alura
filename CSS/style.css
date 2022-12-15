@@ -1,13 +1,7 @@
 body{
-    background-color: blanchedalmond;
+    background: url("../IMG/Wallpaper.jpg");
 }
-#nomeloja{
-    margin-left: 5%;
-}
-#Wallpaper{
-    width:  50%;
-    margin-left: 25%
-}
+
 .pri{
     background-color: #cccccc;
     padding: 1%;
@@ -15,7 +9,7 @@ body{
     margin-left: 4%;
     margin-right: 10%;
 }
-p{
+.parag{
     margin: 5%;
 }
 #tst{
@@ -34,8 +28,10 @@ em strong{
 }
 .subtitle{
     text-align: center;
+    font-weight: bold;
+    font-size: 30px;
 }
-ul{
+.benList{
     display: inline-block;
     vertical-align: top;
     width: 20%;
